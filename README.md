@@ -14,7 +14,7 @@ To structurize the workflow of placing the sellers to specific classes, three Di
 The first DAG describes the general workflow. 
 It contains not only what the output should be, but on a high-level view also how to transform the input data to get there.
  
-![](DAG_1.png)
+<img src='DAG_1.png' width=750>
 
 </br>
 </br>
@@ -25,7 +25,8 @@ From this basis, a second DAG is derived that describes mainly the technical pro
 It is key in this step to describe the space changes after each processing step, to keep track in which space one is currently workin in.
  
  
-![](DAG_2.png)
+<img src='DAG_2.png' width=750>
+
 
 </br>
 </br>
@@ -35,4 +36,12 @@ It is key in this step to describe the space changes after each processing step,
 The third DAG takes the information of the two previous Graphs and defines which work the developer has to perform to get there. 
 The steps range from elementary things such as feature selection and feature engineering, up to quantitatively defining and describing the final clusters.
  
-![](DAG_3.png)
+<img src='DAG_3.png' width=750>
+
+
+
+## Starting the code 
+
+To start the analysis, select the *start.py* file in the main directory. 
+Select an index for a seller and run the file. 
+Afterwards a cluster and specific behavioral patterns about the seller is provided.
