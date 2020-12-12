@@ -11,5 +11,4 @@ Independ from a specific business sector, it is important for a company to know 
 ## Workflow in this project
 To structurize the workflow of placing the sellers to specific classes, three Directed Acyclic Graphs (DAGs) are developed. 
 
-<br/>
-<img src='dag_1.svg'/>
+<img src="master/dag_1.svg">
