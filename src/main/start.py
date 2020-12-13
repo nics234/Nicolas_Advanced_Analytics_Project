@@ -4,8 +4,10 @@ import warnings
 from src.dataflow.dataflow import dataflow
 warnings.filterwarnings("ignore")
 
-if __name__ == "__main__":
-    print("The input data is loaded.")
+import sys
+sys.path.append('src/..')
+
+print("The input data is loaded.")
 
 df_orders = pd.read_csv('./data/olist_orders_dataset.csv', encoding='utf-8')
 df_reviews = pd.read_csv('./data/olist_order_reviews_dataset.csv', encoding='utf-8')
